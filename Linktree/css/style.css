@@ -1,0 +1,42 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    max-width: 600px;
+    max-height: 600px;
+    margin: 0 auto;
+}
+
+.container{
+    background-color: rgb(49, 40, 227);
+    background: linear-gradient(90deg, rgb(64, 55, 240) 0%, rgb(60, 60, 220) 37%, rgb(21, 83, 240) 66%, rgba(0,212,255,1) 100%);
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    height: 500px;
+}
+
+.header{
+    background-color: rgba(51,54,97,1);
+    width: 600px;
+    height: 50px;
+    border-radius: 30px 30px 0 0;
+}
+
+img{
+    margin-top: 15px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+button{
+    background-color: white;
+    width: 550px;
+    height: 45px;
+    margin-bottom: 5px;
+    padding: 2px;
+    border-radius: 10px;
+    color: #6a9ee3;
+    cursor: pointer;
+}
