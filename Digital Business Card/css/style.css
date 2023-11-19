@@ -1,0 +1,92 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+body{
+    max-width: 600px;
+    max-height: 600px;
+    margin: 0 auto;
+    background-color: #dcdcdc;
+    padding: 20px;
+}
+
+.header{
+    background-color: rgba(51,54,97,1);
+    width: 600px;
+    height: 50px;
+    border-radius: 30px 30px 0 0;
+}
+
+.grid-container{
+    width: 80%;
+    padding-left: 20px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 600px;
+    min-width: 300px;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.info{
+    padding: 20px 0;
+    grid-template-areas:
+                "name-job"
+                "description"
+                "contacts";
+}
+
+.grid-container:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+h1,h2{
+    margin: 0;
+}
+
+.portrait{
+    margin: 0;
+    padding: 0;
+
+}
+
+.name-job{
+    grid-area: name-job;
+}
+
+.description{
+    grid-area: description;
+    margin-bottom: 50px;
+}
+
+.contacts{
+    grid-area: contacts;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 10px 10px 0;
+}
+
+@media (max-width: 400px){
+
+    .header{
+        width: 100%;
+    }
+
+    .grid-container{
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+    .info{
+        text-align: center;
+        padding: 10px;
+    }
+
+}
