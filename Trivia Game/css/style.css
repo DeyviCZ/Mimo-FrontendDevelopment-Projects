@@ -1,0 +1,49 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    max-width: 600px;
+    max-height: 600px;
+    margin: 0 auto;
+    background-size: auto;
+}
+
+.header{
+    background-color: rgba(51, 54, 97,1);
+    width: 600px;
+    height: 50px;
+    border-radius: 30px 30px 0 0;
+}
+
+.container{
+    background: linear-gradient(45deg, teal, white);
+    border-radius: 0 0 30px 30px;
+    margin: 0 auto;
+    text-align: center;
+    height: 450px;
+    width: 597px;
+    padding-top: 0.5px;
+}
+
+.main{
+    background: white;
+    max-width: 550px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20% auto;
+}
+
+#choices{
+    margin-bottom: 15px;
+}
+
+button{
+    background-color: slategray;
+    border: none;
+    border-radius: 5px;
+    margin: 0 15px;
+    font-size: small;
+    color: white;
+    padding: 5px;
+}
