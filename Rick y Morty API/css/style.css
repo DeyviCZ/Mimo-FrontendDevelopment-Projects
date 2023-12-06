@@ -1,0 +1,44 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+#characters-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width: 200px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+
+
+img.character-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.attribute{
+    font-weight: bold;
+}
+
+.character-detail{
+    margin-bottom: -10px;
+    padding-bottom: 5px;
+}
