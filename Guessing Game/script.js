@@ -1,15 +1,17 @@
-var attempts = 10;
-var randomNumber = Math.floor(Math.random() * 100 ) + 1;
+let attempts = 10;
+let randomNumber = Math.floor(Math.random() * 100 ) + 1;
+let btnSubmit = document.querySelector('button');
+let userInput = document.getElementById("guess");
 
 function checkGuess() {
-    var feedback = document.getElementById("feedback");
-    var userInput = parseInt(document.getElementById("guess").value,10);
+    let feedback = document.getElementById("feedback");
+    let strToInt = parseInt(userInput.value, 10);
 
     while (attempts > 0) {
-        if(userInput === randomNumber){
+        if(strToInt === randomNumber){
             feedback.innerHTML = "Congratulations!";
             break;
-        } else if (userInput < randomNumber){
+        } else if (strToInt < randomNumber){
              feedback.innerHTML = `Too low! Try again. ${attempts -1} attempts remaining.`;
         } else {
             feedback.innerHTML = `Too high! Try again. ${attempts -1} attempts remaining.`;
@@ -22,3 +24,11 @@ function checkGuess() {
         break;
     }
 }
+
+btnSubmit.addEventListener('click', checkGuess);
+
+userInput.addEventListener('keypress', (event) => {
+    if(event.key === 'Enter'){
+        checkGuess();
+    }
+});
