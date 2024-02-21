@@ -1,0 +1,84 @@
+.chat-header{
+    padding: 10px;
+    background-color: #fa8072;
+}
+
+.chat-content{
+    margin: auto;
+    overflow: auto;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+    /* position: relative; */
+}
+
+.bot-content{
+    display: flex;
+    align-items: flex-end;
+    margin: 8px 0;
+}
+
+.bot-content .bot-avatar{
+    background-image: url('../assets/bot_avatar.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin: auto 4px;
+    padding: 10px 10px;
+}
+
+.bot-content .bot-message{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    max-width: 70%;
+    padding: 10px 10px;
+}
+
+.user-content{
+    display: flex;
+    align-items: flex-end;
+    margin: 8px 0;
+    justify-content: flex-end;
+}
+
+.user-content .user-message{
+    background-color: dodgerblue;
+    color: white;
+    max-width: 70%;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+
+.user-content .user-avatar{
+    background-image: url('../assets/user-avatar.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    margin: auto 4px;
+
+}
+
+.user-input {
+    margin: 10px 0;
+    text-align: center;
+}
+
+#btnStart {
+    padding: 10px 20px;
+    margin: 15px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+#btnStart:hover {
+    background-color: white;
+    color: dodgerblue;
+}
