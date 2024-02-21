@@ -28,6 +28,7 @@ https://daviz-357.github.io/Mimo-FrontendDevelopment-Projects/Rick%20y%20Morty%2
 #10 - Typewriter Portfolio
 
 #11 - Comedian Bot
+https://daviz-357.github.io/Mimo-FrontendDevelopment-Projects/Comedian%20Bot/index.html
 
 #12 - Pixel Paws
 
