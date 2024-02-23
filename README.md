@@ -24,6 +24,7 @@ https://daviz-357.github.io/Mimo-FrontendDevelopment-Projects/Trivia%20Game/inde
 https://daviz-357.github.io/Mimo-FrontendDevelopment-Projects/Rick%20y%20Morty%20API/index.html
 
 #9  - Caesar Cipher <br>
+https://daviz-357.github.io/Mimo-FrontendDevelopment-Projects/Caesar%20Cipher/index.html
 
 #10 - Typewriter Portfolio <br>
 
