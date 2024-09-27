@@ -23,6 +23,6 @@
 
 12. **Pixel Paws**
 
-13. **Pokedex**
+13. [**Pokedex**]( https://deyvicz.github.io/PokedexApp/)
 
 ![Project Screenshot](https://play-lh.googleusercontent.com/qPfmmEDFhGVmIXIKpmfbQeH6vXygXotzj6ied-j2el0YIB36fApN32XoVDrGoMQZ11Q=w240-h480-rw)
